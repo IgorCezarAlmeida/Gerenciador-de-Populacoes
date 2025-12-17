@@ -15,8 +15,8 @@ import java.sql.SQLException;
 public class Conexao {
     
     private static final String USUARIO = "postgres";
-    private static final String SENHA = "root";
-    private static final String URL = "jdbc:postgresql://localhost:5432/GerenciadorPop";
+    private static final String SENHA = "1234";
+    private static final String URL = "jdbc:postgresql://localhost:4321/db_controleDePopulacoes";
     
     public static Connection getConnection(){
         try {
