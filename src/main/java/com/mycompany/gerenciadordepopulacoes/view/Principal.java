@@ -557,9 +557,11 @@ public class Principal extends javax.swing.JFrame {
         CmbNivelAcesso.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jPanel15.add(CmbNivelAcesso, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 190, -1));
 
+        BtnSalvarUsuario.setBackground(new java.awt.Color(153, 255, 153));
+        BtnSalvarUsuario.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         BtnSalvarUsuario.setText("Cadastrar");
         BtnSalvarUsuario.addActionListener(this::BtnSalvarUsuarioActionPerformed);
-        jPanel15.add(BtnSalvarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 140, -1, -1));
+        jPanel15.add(BtnSalvarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 140, 130, -1));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         jLabel7.setText("Nome:");
@@ -632,6 +634,8 @@ public class Principal extends javax.swing.JFrame {
         JtrUnidades.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane1.setViewportView(JtrUnidades);
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 102));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         jButton1.setText("Imprimir");
         jButton1.addActionListener(this::jButton1ActionPerformed);
 
